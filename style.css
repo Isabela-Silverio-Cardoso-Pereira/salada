@@ -160,3 +160,30 @@ section{
     grid-template-columns: repeat(auto-fit, minmax(30rem,1fr)); /*organização das colunas*/
     gap: 1.5rem;
 }
+.menu .box-container .box{
+    text-align: center;
+    border: 1px solid var(--border);
+    padding: 5rem;
+
+}
+
+.menu .box-container .box img{
+    height: 10rem;
+}
+
+.menu .box-container .box h3{
+    color: #263a1b;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.menu .box-container .box .price{
+    color: #263a1b;
+    font-size: 2.5rem;
+    padding: 0.5rem  0;
+}
+.menu .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+    font-weight: lighter;
+}
